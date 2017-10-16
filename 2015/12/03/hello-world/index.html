@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html lang="zh-Hans">
 <head>
 
     <!--[if lt IE 9]>
@@ -15,16 +15,14 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2017/10/14/hello-world/index.html">
+<meta property="og:url" content="http://yoursite.com/2015/12/03/hello-world/index.html">
 <meta property="og:site_name" content="shy~">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="og:updated_time" content="2017-10-14T03:03:50.556Z">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-10-16T11:15:41.421Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -40,6 +38,8 @@
     <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
 
 
+
+    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
 
 
 
@@ -61,7 +61,7 @@
 
 <script>
     var yiliaConfig = {
-        fancybox: false,
+        fancybox: true,
         animate: true,
         isHome: false,
         isPost: true,
@@ -70,22 +70,18 @@
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: true
+        search: 
     }
 </script>
 
 
-    <script>
-        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
-    </script>
+    <script> yiliaConfig.jquery_ui = [false]; </script>
 
 
 
     <script> yiliaConfig.rootUrl = "\/";</script>
 
 
-
-    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56ff76c972fc0cf9"></script>
 
 
 
@@ -108,13 +104,6 @@
         <p class="header-subtitle">keep your dream and never give up!</p>
         
 
-        
-            <form id="search-form">
-            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true" />
-            <i class="fa fa-times" onclick="resetSearch()"></i>
-            </form>
-            <div id="local-search-result"></div>
-            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
         
 
 
@@ -170,8 +159,6 @@
                         
                             <li><a href="/archives/">所有文章</a></li>
                         
-                            <li><a href="/tags/随笔">随笔</a></li>
-                        
                             <li><a href="/tags/">标签云</a></li>
                         
                             <li><a href="/about/">关于我</a></li>
@@ -181,19 +168,11 @@
                     <nav class="header-nav">
                         <ul class="social">
                             
-                                <a class="fa Email" href="mailto:18196646113@163.com" title="Email"></a>
-                            
-                                <a class="fa 新浪微博" href="/sina weibo" title="新浪微博"></a>
+                                <a class="fa Email" href="mailto:123@123.com" title="Email"></a>
                             
                                 <a class="fa GitHub" href="#" title="GitHub"></a>
                             
                                 <a class="fa RSS" href="/atom.xml" title="RSS"></a>
-                            
-                                <a class="fa 网易云音乐" href="/netease" title="网易云音乐"></a>
-                            
-                                <a class="fa QQ" href="#" title="QQ"></a>
-                            
-                                <a class="fa 微信" href="/Wechat" title="微信"></a>
                             
                         </ul>
                     </nav>
@@ -225,7 +204,7 @@
                 
                 <section class="switch-part switch-part4">
                 
-                    <div id="js-aboutme">专注于Java</div>
+                    <div id="js-aboutme">专注于前端</div>
                 </section>
                 
             </div>
@@ -257,8 +236,6 @@
                 
                     <li><a href="/archives/">所有文章</a></li>
                 
-                    <li><a href="/tags/随笔">随笔</a></li>
-                
                     <li><a href="/tags/">标签云</a></li>
                 
                     <li><a href="/about/">关于我</a></li>
@@ -269,19 +246,11 @@
             <nav class="header-nav">
                         <ul class="social">
                             
-                                <a class="fa Email" target="_blank" href="mailto:18196646113@163.com" title="Email"></a>
-                            
-                                <a class="fa 新浪微博" target="_blank" href="/sina weibo" title="新浪微博"></a>
+                                <a class="fa Email" target="_blank" href="mailto:123@123.com" title="Email"></a>
                             
                                 <a class="fa GitHub" target="_blank" href="#" title="GitHub"></a>
                             
                                 <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
-                            
-                                <a class="fa 网易云音乐" target="_blank" href="/netease" title="网易云音乐"></a>
-                            
-                                <a class="fa QQ" target="_blank" href="#" title="QQ"></a>
-                            
-                                <a class="fa 微信" target="_blank" href="/Wechat" title="微信"></a>
                             
                         </ul>
             </nav>
@@ -292,14 +261,16 @@
       <div class="body-wrap"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2017/10/14/hello-world/" class="article-date">
-      <time datetime="2017-10-14T03:03:50.555Z" itemprop="datePublished">2017-10-14</time>
+      <a href="/2015/12/03/hello-world/" class="article-date">
+      <time datetime="2015-12-02T16:00:00.000Z" itemprop="datePublished">2015-12-03</time>
 </a>
 
 
     </div>
   
   <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
       <header class="article-header">
@@ -323,7 +294,8 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+        <p><excerpt in="" index="" |="" ��ҳժҫ=""><br><a id="more"></a></excerpt></p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><the rest="" of="" contents="" |="" ����ȫ��=""></the></h2><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
@@ -340,13 +312,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2017/10/14/hello-world/">Hello World</a></p>
+        <p><span>本文标题:</span><a href="/2015/12/03/hello-world/">Hello World</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">严良超</a></p>
-        <p><span>发布时间:</span>2017-10-14, 11:03:50</p>
-        <p><span>最后更新:</span>2017-10-14, 11:03:50</p>
+        <p><span>发布时间:</span>2015-12-03, 00:00:00</p>
+        <p><span>最后更新:</span>2017-10-16, 19:15:41</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2017/10/14/hello-world/" title="Hello World">http://yoursite.com/2017/10/14/hello-world/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2017/10/14/hello-world/　　作者: 严良超" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2015/12/03/hello-world/" title="Hello World">http://yoursite.com/2015/12/03/hello-world/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2015/12/03/hello-world/　　作者: 严良超" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -373,7 +345,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#"><span class="toc-number">1.</span> <span class="toc-text"></span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">2.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">2.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">2.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">2.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">2.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
         
     </div>
     <style>
@@ -414,8 +386,6 @@
     
 
     
-        <div class="addthis_sharing_toolbox"></div>
-    
 </div>
 
 
@@ -424,20 +394,6 @@
 
 
 
-    
-        <section class="youyan" id="comments">
-    <script>
-        var loadComment = function(){
-            var d = document, s = d.createElement('script');
-            s.src = 'http://v2.uyan.cc/code/uyan.js?uid=2146621';
-            (d.head || d.body).appendChild(s);
-        }
-    </script>
-    
-    <script> loadComment(); </script>
-
-    <div id="uyan_frame"></div>
-</section>
     
 
 
@@ -457,7 +413,7 @@
         
     </div>
 
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/10/15/My-New-Post/">My New Post</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/10/14/hello-world/">Hello World</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/10/15/My-New-Post/">My New Post</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/03/hello-world/">Hello World</a></li></ul>
 
 
 
@@ -471,7 +427,7 @@
         <div id="footer-info">
             <div class="footer-left">
                 <i class="fa fa-copyright"></i> 
-                2015-2017 严良超
+                2016-2017 严良超
             </div>
             <div class="footer-right">
                 <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
@@ -497,10 +453,6 @@
             </div>
         
     </div>
-	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-	<span id="busuanzi_container_site_pv">
-		本站总访问量<span id="busuanzi_value_site_pv"></span>次
-	</span>
 </footer>
     </div>
     
@@ -515,7 +467,7 @@
                 $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
             }
             else {
-                var backgroundnum = 3;
+                var backgroundnum = 5;
                 var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
                 $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
             }
@@ -552,23 +504,6 @@
         }
     
 </script>
-
-    <script>
-        var originTitle = document.title;
-        var titleTime;
-        document.addEventListener("visibilitychange", function() {
-            if (document.hidden) {
-                document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
-                clearTimeout(titleTime);
-            }
-            else {
-                document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
-                titleTime = setTimeout(function() {
-                    document.title = originTitle;
-                }, 2000);
-            }
-        })
-    </script>
 
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
