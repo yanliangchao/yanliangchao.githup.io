@@ -5,7 +5,9 @@
     <entry>
       <title><![CDATA[My New Post]]></title>
       <url>/2017/10/15/My-New-Post/</url>
-      <content type="html"></content>
+      <content type="html"><![CDATA[<p>title: 你好</p>
+<h2 id="date-2015-12-03-00-00-00"><a href="#date-2015-12-03-00-00-00" class="headerlink" title="date: 2015-12-03 00:00:00"></a>date: 2015-12-03 00:00:00</h2><p><excerpt in="" index="" |="" 首页摘要=""><br><a id="more"></a></excerpt></p>
+<the rest="" of="" contents="" |="" 余下全文=""></the>]]></content>
       
         
     </entry>

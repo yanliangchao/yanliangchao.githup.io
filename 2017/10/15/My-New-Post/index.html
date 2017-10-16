@@ -15,14 +15,17 @@
 
 
 
+<meta name="description" content="title: 你好 date: 2015-12-03 00:00:00">
 <meta property="og:type" content="article">
 <meta property="og:title" content="My New Post">
-<meta property="og:url" content="http://yoursite.com/2017/10/15/My-New-Post/index.html">
+<meta property="og:url" content="http://yanliangchao.github.io/2017/10/15/My-New-Post/index.html">
 <meta property="og:site_name" content="shy~">
+<meta property="og:description" content="title: 你好 date: 2015-12-03 00:00:00">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-14T16:29:41.883Z">
+<meta property="og:updated_time" content="2017-10-16T14:46:28.230Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My New Post">
+<meta name="twitter:description" content="title: 你好 date: 2015-12-03 00:00:00">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -70,12 +73,14 @@
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: 
+        search: true
     }
 </script>
 
 
-    <script> yiliaConfig.jquery_ui = [false]; </script>
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
 
 
 
@@ -94,7 +99,7 @@
 <div class="intrude-less">
     <header id="header" class="inner">
         <a href="/" class="profilepic">
-            <img src="/img/avatar.png" class="animated zoomIn">
+            <img src="/img/jingtisn.jpg" class="animated zoomIn">
         </a>
         <hgroup>
           <h1 class="header-author"><a href="/">严良超</a></h1>
@@ -104,6 +109,13 @@
         <p class="header-subtitle">keep your dream and never give up!</p>
         
 
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="false" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
         
 
 
@@ -159,6 +171,8 @@
                         
                             <li><a href="/archives/">所有文章</a></li>
                         
+                            <li><a href="/tags/随笔">随笔</a></li>
+                        
                             <li><a href="/tags/">标签云</a></li>
                         
                             <li><a href="/about/">关于我</a></li>
@@ -168,11 +182,23 @@
                     <nav class="header-nav">
                         <ul class="social">
                             
-                                <a class="fa Email" href="mailto:123@123.com" title="Email"></a>
+                                <a class="fa Email" href="mailto:18196646113@163.com" title="Email"></a>
+                            
+                                <a class="fa 新浪微博" href="/sina weibo" title="新浪微博"></a>
                             
                                 <a class="fa GitHub" href="#" title="GitHub"></a>
                             
                                 <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa 简书" href="/jianshu" title="简书"></a>
+                            
+                                <a class="fa CSDN" href="/" title="CSDN"></a>
+                            
+                                <a class="fa 网易云音乐" href="/netease" title="网易云音乐"></a>
+                            
+                                <a class="fa QQ" href="#" title="QQ"></a>
+                            
+                                <a class="fa 微信" href="/Wechat" title="微信"></a>
                             
                         </ul>
                     </nav>
@@ -204,7 +230,7 @@
                 
                 <section class="switch-part switch-part4">
                 
-                    <div id="js-aboutme">专注于前端</div>
+                    <div id="js-aboutme">专注于Java</div>
                 </section>
                 
             </div>
@@ -221,7 +247,7 @@
     <div class="intrude-less">
         <header id="header" class="inner">
             <a href="/" class="profilepic">
-                <img src="/img/avatar.png" class="animated zoomIn">
+                <img src="/img/jingtisn.jpg" class="animated zoomIn">
             </a>
             <hgroup>
               <h1 class="header-author"><a href="/" title="回到主页">严良超</a></h1>
@@ -236,6 +262,8 @@
                 
                     <li><a href="/archives/">所有文章</a></li>
                 
+                    <li><a href="/tags/随笔">随笔</a></li>
+                
                     <li><a href="/tags/">标签云</a></li>
                 
                     <li><a href="/about/">关于我</a></li>
@@ -246,11 +274,23 @@
             <nav class="header-nav">
                         <ul class="social">
                             
-                                <a class="fa Email" target="_blank" href="mailto:123@123.com" title="Email"></a>
+                                <a class="fa Email" target="_blank" href="mailto:18196646113@163.com" title="Email"></a>
+                            
+                                <a class="fa 新浪微博" target="_blank" href="/sina weibo" title="新浪微博"></a>
                             
                                 <a class="fa GitHub" target="_blank" href="#" title="GitHub"></a>
                             
                                 <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa 简书" target="_blank" href="/jianshu" title="简书"></a>
+                            
+                                <a class="fa CSDN" target="_blank" href="/" title="CSDN"></a>
+                            
+                                <a class="fa 网易云音乐" target="_blank" href="/netease" title="网易云音乐"></a>
+                            
+                                <a class="fa QQ" target="_blank" href="#" title="QQ"></a>
+                            
+                                <a class="fa 微信" target="_blank" href="/Wechat" title="微信"></a>
                             
                         </ul>
             </nav>
@@ -294,7 +334,9 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        
+        <p>title: 你好</p>
+<h2 id="date-2015-12-03-00-00-00"><a href="#date-2015-12-03-00-00-00" class="headerlink" title="date: 2015-12-03 00:00:00"></a>date: 2015-12-03 00:00:00</h2><p><excerpt in="" index="" |="" 首页摘要=""><br><a id="more"></a></excerpt></p>
+<the rest="" of="" contents="" |="" 余下全文=""></the>
       
     </div>
     
@@ -305,10 +347,10 @@
         <p><span>本文标题:</span><a href="/2017/10/15/My-New-Post/">My New Post</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">严良超</a></p>
         <p><span>发布时间:</span>2017-10-15, 00:29:41</p>
-        <p><span>最后更新:</span>2017-10-15, 00:29:41</p>
+        <p><span>最后更新:</span>2017-10-16, 22:46:28</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2017/10/15/My-New-Post/" title="My New Post">http://yoursite.com/2017/10/15/My-New-Post/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2017/10/15/My-New-Post/　　作者: 严良超" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2017/10/15/My-New-Post/" title="My New Post">http://yanliangchao.github.io/2017/10/15/My-New-Post/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yanliangchao.github.io/2017/10/15/My-New-Post/　　作者: 严良超" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -335,7 +377,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#date-2015-12-03-00-00-00"><span class="toc-number">1.</span> <span class="toc-text">date: 2015-12-03 00:00:00</span></a></li></ol>
         
     </div>
     <style>
@@ -384,6 +426,20 @@
 
 
 
+    
+        <section class="youyan" id="comments">
+    <script>
+        var loadComment = function(){
+            var d = document, s = d.createElement('script');
+            s.src = 'http://v2.uyan.cc/code/uyan.js?uid=2146621';
+            (d.head || d.body).appendChild(s);
+        }
+    </script>
+    
+    <script> loadComment(); </script>
+
+    <div id="uyan_frame"></div>
+</section>
     
 
 
@@ -457,7 +513,7 @@
                 $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
             }
             else {
-                var backgroundnum = 5;
+                var backgroundnum = 3;
                 var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
                 $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
             }
@@ -494,6 +550,23 @@
         }
     
 </script>
+
+    <script>
+        var originTitle = document.title;
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            if (document.hidden) {
+                document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+                clearTimeout(titleTime);
+            }
+            else {
+                document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+                titleTime = setTimeout(function() {
+                    document.title = originTitle;
+                }, 2000);
+            }
+        })
+    </script>
 
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
